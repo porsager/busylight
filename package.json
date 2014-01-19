@@ -1,0 +1,34 @@
+{
+  "name": "busylight",
+  "version": "0.1.0",
+  "description": "node library for busylight",
+  "main": "./lib/busylight.js",
+  "author": {
+    "name": "Rasmus Porsager",
+    "email": "rasmus@porsager.com",
+    "url": "https://github.com/porsager"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "repository": "porsager/busylight",
+  "keywords": [
+    "lync",
+    "uc",
+    "kuando",
+    "hid"
+  ],
+  "dependencies": {
+    "node-hid": "0.3.1",
+    "csscolorparser": "1.0.2"
+  },
+  "homepage": "http://github.com/porsager/busylight/",
+  "bugs": { 
+    "url" : "http://github.com/porsager/busylight/issues",
+    "email": "rasmus@porsager.com"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "license": "MIT"
+}
