@@ -5,6 +5,10 @@ var busylight = require('../lib')
 
 var bl = busylight.get();
 
+bl.on('error', function(err) {
+  console.log(err);
+});
+
 if(!bl)
   return console.log('no busylight found');
 
