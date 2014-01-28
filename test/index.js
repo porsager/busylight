@@ -5,11 +5,11 @@ var busylight = require('../lib')
 
 var bl = busylight.get();
 
-bl.on('error', function(err) {
+bl.on('disconnected', function(err) {
   console.log(err);
 });
 
-bl.once('connected', function(){
+bl.on('connected', function(){
 
   if(!bl)
     return console.log('no busylight found');
