@@ -1,0 +1,144 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.17
+3 info using node@v0.10.23
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/rasmus/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/tmp.tgz
+12 verbose folder .
+13 info prepublish busylight@0.1.2
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/rasmus/.npm/1f1177db-tar.lock
+16 silly lockFile 38aeb9f0-59404-0-7372738947160542-tmp-tgz tar:///var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/tmp.tgz
+17 verbose lock tar:///var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/tmp.tgz /Users/rasmus/.npm/38aeb9f0-59404-0-7372738947160542-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 38aeb9f0-59404-0-7372738947160542-tmp-tgz tar:///var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/tmp.tgz
+21 silly lockFile 38aeb9f0-59404-0-7372738947160542-tmp-tgz tar:///var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/tmp.tgz
+22 verbose tar unpack /var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/tmp.tgz
+23 silly lockFile 2a09c94c-59404-0-7372738947160542-package tar:///var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/package
+24 verbose lock tar:///var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/package /Users/rasmus/.npm/2a09c94c-59404-0-7372738947160542-package.lock
+25 silly lockFile 38aeb9f0-59404-0-7372738947160542-tmp-tgz tar:///var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/tmp.tgz
+26 verbose lock tar:///var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/tmp.tgz /Users/rasmus/.npm/38aeb9f0-59404-0-7372738947160542-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry lib/busylight.js
+32 silly gunzTarPerm extractEntry lib/degamma.js
+33 silly gunzTarPerm extractEntry lib/hidfinder.js
+34 silly gunzTarPerm extractEntry lib/index.js
+35 silly gunzTarPerm extractEntry lib/stepper.js
+36 silly gunzTarPerm extractEntry supported.json
+37 silly gunzTarPerm extractEntry test/index.js
+38 silly lockFile 2a09c94c-59404-0-7372738947160542-package tar:///var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/package
+39 silly lockFile 2a09c94c-59404-0-7372738947160542-package tar:///var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/package
+40 silly lockFile 38aeb9f0-59404-0-7372738947160542-tmp-tgz tar:///var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/tmp.tgz
+41 silly lockFile 38aeb9f0-59404-0-7372738947160542-tmp-tgz tar:///var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/tmp.tgz
+42 verbose tar pack [ '/Users/rasmus/.npm/busylight/0.1.2/package.tgz',
+42 verbose tar pack   '/var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/package' ]
+43 verbose tarball /Users/rasmus/.npm/busylight/0.1.2/package.tgz
+44 verbose folder /var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/package
+45 silly lockFile 2a09c94c-59404-0-7372738947160542-package tar:///var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/package
+46 verbose lock tar:///var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/package /Users/rasmus/.npm/2a09c94c-59404-0-7372738947160542-package.lock
+47 silly lockFile 9012fad9--npm-busylight-0-1-2-package-tgz tar:///Users/rasmus/.npm/busylight/0.1.2/package.tgz
+48 verbose lock tar:///Users/rasmus/.npm/busylight/0.1.2/package.tgz /Users/rasmus/.npm/9012fad9--npm-busylight-0-1-2-package-tgz.lock
+49 silly lockFile 2a09c94c-59404-0-7372738947160542-package tar:///var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/package
+50 silly lockFile 2a09c94c-59404-0-7372738947160542-package tar:///var/folders/yr/480rbmc95jsdxggfs25m7crr0000gn/T/npm-97204-bfdhLCK7/1390896759404-0.7372738947160542/package
+51 silly lockFile 9012fad9--npm-busylight-0-1-2-package-tgz tar:///Users/rasmus/.npm/busylight/0.1.2/package.tgz
+52 silly lockFile 9012fad9--npm-busylight-0-1-2-package-tgz tar:///Users/rasmus/.npm/busylight/0.1.2/package.tgz
+53 silly lockFile 68c59b88-smus-npm-busylight-0-1-2-package /Users/rasmus/.npm/busylight/0.1.2/package
+54 verbose lock /Users/rasmus/.npm/busylight/0.1.2/package /Users/rasmus/.npm/68c59b88-smus-npm-busylight-0-1-2-package.lock
+55 silly lockFile 68c59b88-smus-npm-busylight-0-1-2-package /Users/rasmus/.npm/busylight/0.1.2/package
+56 silly lockFile 68c59b88-smus-npm-busylight-0-1-2-package /Users/rasmus/.npm/busylight/0.1.2/package
+57 verbose tar unpack /Users/rasmus/.npm/busylight/0.1.2/package.tgz
+58 silly lockFile 40a84779-smus-npm-busylight-0-1-2-package tar:///Users/rasmus/.npm/busylight/0.1.2/package
+59 verbose lock tar:///Users/rasmus/.npm/busylight/0.1.2/package /Users/rasmus/.npm/40a84779-smus-npm-busylight-0-1-2-package.lock
+60 silly lockFile 9012fad9--npm-busylight-0-1-2-package-tgz tar:///Users/rasmus/.npm/busylight/0.1.2/package.tgz
+61 verbose lock tar:///Users/rasmus/.npm/busylight/0.1.2/package.tgz /Users/rasmus/.npm/9012fad9--npm-busylight-0-1-2-package-tgz.lock
+62 silly gunzTarPerm modes [ '755', '644' ]
+63 silly gunzTarPerm extractEntry package.json
+64 silly gunzTarPerm extractEntry .npmignore
+65 silly gunzTarPerm extractEntry README.md
+66 silly gunzTarPerm extractEntry lib/busylight.js
+67 silly gunzTarPerm extractEntry lib/degamma.js
+68 silly gunzTarPerm extractEntry lib/hidfinder.js
+69 silly gunzTarPerm extractEntry lib/index.js
+70 silly gunzTarPerm extractEntry lib/stepper.js
+71 silly gunzTarPerm extractEntry supported.json
+72 silly gunzTarPerm extractEntry test/index.js
+73 silly lockFile 40a84779-smus-npm-busylight-0-1-2-package tar:///Users/rasmus/.npm/busylight/0.1.2/package
+74 silly lockFile 40a84779-smus-npm-busylight-0-1-2-package tar:///Users/rasmus/.npm/busylight/0.1.2/package
+75 silly lockFile 9012fad9--npm-busylight-0-1-2-package-tgz tar:///Users/rasmus/.npm/busylight/0.1.2/package.tgz
+76 silly lockFile 9012fad9--npm-busylight-0-1-2-package-tgz tar:///Users/rasmus/.npm/busylight/0.1.2/package.tgz
+77 verbose chmod /Users/rasmus/.npm/busylight/0.1.2/package.tgz 644
+78 verbose chown /Users/rasmus/.npm/busylight/0.1.2/package.tgz [ 501, 20 ]
+79 silly lockFile 3a52ce78- .
+80 silly lockFile 3a52ce78- .
+81 silly publish { name: 'busylight',
+81 silly publish   version: '0.1.2',
+81 silly publish   description: 'node library for busylight',
+81 silly publish   main: './lib/index.js',
+81 silly publish   author:
+81 silly publish    { name: 'Rasmus Porsager',
+81 silly publish      email: 'rasmus@porsager.com',
+81 silly publish      url: 'https://github.com/porsager' },
+81 silly publish   engines: { node: '>=0.8.0' },
+81 silly publish   repository: { type: 'git', url: 'git://github.com/porsager/busylight' },
+81 silly publish   keywords: [ 'lync', 'uc', 'kuando', 'hid' ],
+81 silly publish   dependencies: { 'node-hid': '0.3.1', csscolorparser: '1.0.2' },
+81 silly publish   homepage: 'http://github.com/porsager/busylight/',
+81 silly publish   bugs:
+81 silly publish    { url: 'http://github.com/porsager/busylight/issues',
+81 silly publish      email: 'rasmus@porsager.com' },
+81 silly publish   scripts: { test: 'node test' },
+81 silly publish   license: 'MIT',
+81 silly publish   readme: '#Busylight for node\nA node.js library for the Busylight usb device.\nMore info on the Busylight can be found here: http://busylight.com/\n\n## Install\n\n    npm install busylight\n[*extra steps for node-webkit](#node-webkit)\n\n#Quick start\n###Get a Busylight\n\n    var busylight = require(\'busylight\').get()\n\n###Make it dance\n\n    busylight.ring().pulse();\n    \n###STOP!\n\n    busylight.off();\n    \n###Hammertime...\n    busylight.ring(\'Funky\').blink([\'red\', \'yellow\', \'blue\', \'green\'], 150);\n    \n#Usage\n###Finding an attached busylight\nGet the first available busylight\n\n    var busylight = require(\'busylight\').get()\n\nGet a specific Busylight attached to the system.\n\n    var busylight = require(\'busylight\').get(path);\n\nThe path can be found by looking at the connected Busylights. \nPass true if you want to see all connected USB HIDs. This can be useful if the Busylight is not detected.\n\n    var busylights = require(\'busylight\').devices(showAllUSBDevices);\n\n###Defaults method\nSet up different defaults that the busyligt will use if you don\'t give specific instructions\n\n    {\n      keepalive: true,      // If the busylight is not kept alive it will turn off after 30 seconds\n      color: \'white\',       // The default color to use for light, blink and pulse\n      duration: 30 * 1000,  // The duration for a blink or pulse sequence\n      rate: 300,            // The rate at which to blink or pulse\n      degamma: true,        // Fix rgb colors to present a better light\n      tone: \'OpenOffice\',   // Default ring tone\n      volume: 4             // Default volume\n    }\n\n###light(color)\nTo make the busylight light a specific color just use a valid css color.\n\n    busylight.light(\'orange\')\n\nTo turn it off\n\n    busylight.light(false);\n\n###ring(tone, volume)\nMake the busylight play a ringtone\n\n    busylight.ring(\'OpenOffice\')\n\nVolumesteps\nThe busylight accepts volume values of 0-7\n\nRingtones\n*OpenOffice\n*Quiet\n*Funky\n*FairyTale\n*KuandoTrain\n*TelephoneNordic\n*TelephoneOriginal\n*TelephonePickMeUp\n*Buzz\n\n###blink(colors, rate)\nFades smoothly between colors. If only a single color is defined it will pulse between that color and no light\n\n    busylight.blink([\'red\', \'green\', \'blue\'], 500);\n\n###pulse(colors, rate)\nThe pulse method fades smoothly between the defined colors. If only a single color is defined it will pulse between that color and no light\n\n    busylight.pulse([\'#f00\', \'#0f0\', \'#00f\']);\n\n###off()\nTurns everything off.\n    \n    busylight.off();\n\n###close()\nWhen you are done using the busylight you can use the close method to shut down the connection correctly\n    \n    busylight.close();\n\n###Chaining\nSimple chaining is available to let you eg. ring and blink in one go\n\n    busylight.ring().blink();\n\nTurn it off again\n\n    busylight.ring(false).blink(false);\n\n#Supports\nCurrently only the Kuando Busylight has been tested, but it seems the busylight unit is available under different names\n* Kuando Busylight\n\n###<a name="node-webkit"></a>Node-webkit\nHeadset relies on node-hid. node-hid needs to be built for each platform and specific version of node-webkit, so to make it work you need build node-hid using nw-gyp\nhttps://github.com/rogerwang/node-webkit/wiki/Build-native-modules-with-nw-gyp\n',
+81 silly publish   readmeFilename: 'README.md',
+81 silly publish   _id: 'busylight@0.1.2',
+81 silly publish   dist: { shasum: '2f9fcf9352efb8991d6f14030a485a24602974e2' },
+81 silly publish   _from: '.' }
+82 verbose url raw busylight
+83 verbose url resolving [ 'https://registry.npmjs.org/', './busylight' ]
+84 verbose url resolved https://registry.npmjs.org/busylight
+85 info trying registry request attempt 1 at 09:12:40
+86 http PUT https://registry.npmjs.org/busylight
+87 http 409 https://registry.npmjs.org/busylight
+88 verbose url raw busylight
+89 verbose url resolving [ 'https://registry.npmjs.org/', './busylight' ]
+90 verbose url resolved https://registry.npmjs.org/busylight
+91 info trying registry request attempt 1 at 09:12:40
+92 http GET https://registry.npmjs.org/busylight
+93 http 200 https://registry.npmjs.org/busylight
+94 error publish fail Cannot publish over existing version.
+94 error publish fail Update the 'version' field in package.json and try again.
+94 error publish fail
+94 error publish fail If the previous version was published in error, see:
+94 error publish fail     npm help unpublish
+94 error publish fail
+94 error publish fail To automatically increment version numbers, see:
+94 error publish fail     npm help version
+95 error System Darwin 13.0.0
+96 error command "node" "/usr/local/bin/npm" "publish"
+97 error cwd /Users/rasmus/Projects/busylight
+98 error node -v v0.10.23
+99 error npm -v 1.3.17
+100 error code EPUBLISHCONFLICT
+101 verbose exit [ 1, true ]
