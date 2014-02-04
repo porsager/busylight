@@ -69,15 +69,15 @@ Volumesteps
 The busylight accepts volume values of 0-7
 
 Ringtones
-*OpenOffice
-*Quiet
-*Funky
-*FairyTale
-*KuandoTrain
-*TelephoneNordic
-*TelephoneOriginal
-*TelephonePickMeUp
-*Buzz
+* OpenOffice
+* Quiet
+* Funky
+* FairyTale
+* KuandoTrain
+* TelephoneNordic
+* TelephoneOriginal
+* TelephonePickMeUp
+* Buzz
 
 ###blink(colors, rate)
 Fades smoothly between colors. If only a single color is defined it will pulse between that color and no light
