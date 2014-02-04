@@ -1,5 +1,5 @@
 #Busylight for node
-A node.js library for the Busylight usb device.
+A node library for the Busylight usb device.
 More info on the Busylight can be found here: http://busylight.com/
 
 ## Install
@@ -41,7 +41,7 @@ Pass true if you want to see all connected USB HIDs. This can be useful if the B
 ###Defaults method
 Set up different defaults that the busyligt will use if you don't give specific instructions
 
-    {
+    busylight.defaults({
       keepalive: true,      // If the busylight is not kept alive it will turn off after 30 seconds
       color: 'white',       // The default color to use for light, blink and pulse
       duration: 30 * 1000,  // The duration for a blink or pulse sequence
@@ -49,7 +49,7 @@ Set up different defaults that the busyligt will use if you don't give specific 
       degamma: true,        // Fix rgb colors to present a better light
       tone: 'OpenOffice',   // Default ring tone
       volume: 4             // Default volume
-    }
+    });
 
 ###light(color)
 To make the busylight light a specific color just use a valid css color.
