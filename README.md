@@ -77,7 +77,7 @@ Ringtones
 * TelephoneNordic
 * TelephoneOriginal
 * TelephonePickMeUp
-* Buzz
+* Buzz    (Basically annoying white noise)
 
 ###blink(colors, rate)
 Fades smoothly between colors. If only a single color is defined it will pulse between that color and no light
