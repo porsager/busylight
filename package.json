@@ -1,6 +1,6 @@
 {
   "name": "busylight",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "node library for busylight",
   "main": "./lib/index.js",
   "author": {
