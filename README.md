@@ -113,5 +113,5 @@ Currently only the Kuando Busylight has been tested, but it seems the busylight 
 * Kuando Busylight
 
 ###<a name="node-webkit"></a>Node-webkit
-Headset relies on node-hid. node-hid needs to be built for each platform and specific version of node-webkit, so to make it work you need build node-hid using nw-gyp
+Busylight relies on node-hid. node-hid needs to be built for each platform and specific version of node-webkit, so to make it work you need to build node-hid using nw-gyp
 https://github.com/rogerwang/node-webkit/wiki/Build-native-modules-with-nw-gyp
