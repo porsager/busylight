@@ -1,6 +1,6 @@
 {
   "name": "busylight",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "node library for busylight",
   "main": "./lib/index.js",
   "author": {
@@ -23,7 +23,7 @@
     "csscolorparser": "1.0.2"
   },
   "homepage": "http://github.com/porsager/busylight/",
-  "bugs": { 
+  "bugs": {
     "url" : "http://github.com/porsager/busylight/issues",
     "email": "rasmus@porsager.com"
   },
