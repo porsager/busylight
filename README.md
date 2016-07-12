@@ -1,4 +1,6 @@
 #Busylight for node
+
+[![Join the chat at https://gitter.im/porsager/busylight](https://badges.gitter.im/porsager/busylight.svg)](https://gitter.im/porsager/busylight?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 A node library for the Busylight usb device.
 More info on the Busylight can be found here: http://busylight.com/
 
