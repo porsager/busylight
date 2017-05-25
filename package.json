@@ -20,11 +20,11 @@
   ],
   "dependencies": {
     "node-hid": "0.5.x",
-    "csscolorparser": "1.0.2"
+    "pwmcolorparser": "1.1.0"
   },
   "homepage": "http://github.com/porsager/busylight/",
   "bugs": {
-    "url" : "http://github.com/porsager/busylight/issues",
+    "url": "http://github.com/porsager/busylight/issues",
     "email": "rasmus@porsager.com"
   },
   "scripts": {
