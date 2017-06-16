@@ -7,24 +7,24 @@ More info on the Busylight can be found here: http://busylight.com/
     npm install busylight
 [*extra steps for node-webkit](#node-webkit)
 
-#Quick start
-###Get a Busylight
+# Quick start
+### Get a Busylight
 
     var busylight = require('busylight').get()
 
-###Make it dance
+### Make it dance
 
     busylight.ring().pulse();
     
-###STOP!
+### STOP!
 
     busylight.off();
     
-###Hammertime...
+### Hammertime...
     busylight.ring('Funky').blink(['red', 'yellow', 'blue', 'green'], 150);
     
-#Usage
-###Finding an attached busylight
+# Usage
+### Finding an attached busylight
 Get the first available busylight
 
     var busylight = require('busylight').get()
@@ -38,7 +38,7 @@ Pass true if you want to see all connected USB HIDs. This can be useful if the B
 
     var busylights = require('busylight').devices(showAllUSBDevices);
 
-###Defaults method
+### Defaults method
 Set up different defaults that the busyligt will use if you don't give specific instructions
 
     busylight.defaults({
@@ -51,7 +51,7 @@ Set up different defaults that the busyligt will use if you don't give specific 
       volume: 4             // Default volume
     });
 
-###light(color)
+### light(color)
 To make the busylight light a specific color just use a valid css color.
 
     busylight.light('orange')
@@ -60,7 +60,7 @@ To turn it off
 
     busylight.light(false);
 
-###ring(tone, volume)
+### ring(tone, volume)
 Make the busylight play a ringtone
 
     busylight.ring('OpenOffice')
@@ -79,27 +79,27 @@ Ringtones
 * TelephonePickMeUp
 * Buzz    (Basically annoying white noise)
 
-###blink(colors, rate)
+### blink(colors, rate)
 Fades smoothly between colors. If only a single color is defined it will pulse between that color and no light
 
     busylight.blink(['red', 'green', 'blue'], 500);
 
-###pulse(colors, rate)
+### pulse(colors, rate)
 The pulse method fades smoothly between the defined colors. If only a single color is defined it will pulse between that color and no light
 
     busylight.pulse(['#f00', '#0f0', '#00f']);
 
-###off()
+### off()
 Turns everything off.
     
     busylight.off();
 
-###close()
+### close()
 When you are done using the busylight you can use the close method to shut down the connection correctly
     
     busylight.close();
 
-###Chaining
+### Chaining
 Simple chaining is available to let you eg. ring and blink in one go
 
     busylight.ring().blink();
@@ -108,10 +108,10 @@ Turn it off again
 
     busylight.ring(false).blink(false);
 
-#Supports
+# Supports
 Currently only the Kuando Busylight has been tested, but it seems the busylight unit is available under different names
 * Kuando Busylight
 
-###<a name="node-webkit"></a>Node-webkit
+### <a name="node-webkit"></a>Node-webkit
 Busylight relies on node-hid. node-hid needs to be built for each platform and specific version of node-webkit, so to make it work you need to build node-hid using nw-gyp
 https://github.com/rogerwang/node-webkit/wiki/Build-native-modules-with-nw-gyp
