@@ -1,4 +1,4 @@
-#Busylight for node
+# Busylight for node
 A node library for the Busylight usb device.
 More info on the Busylight can be found here: http://busylight.com/
 
