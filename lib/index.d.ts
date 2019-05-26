@@ -3,7 +3,7 @@ declare module 'busylight' {
     export function get(options?: options): Busylight;
     export { };
 
-    class Busylight {
+    export interface Busylight {
         options: options | supported[];
         buffer: number[];
         newProtocol: number;
@@ -14,7 +14,6 @@ declare module 'busylight' {
 
         constructor(options: options | supported[])
 
-        light(color: string): void;
         getColorArray(color: string | string[]): string[];
         connect(options: options);
         defaults(options: options): options;
@@ -22,9 +21,9 @@ declare module 'busylight' {
         off(): void;
         send(jingle: jingle): void;
         ring(tone?: tone | false, volume?: number): Busylight;
-        light(color?: color): Busylight;
-        blink(colors?: color, rate?: number): Busylight;
-        pulse(colors?: color, rate?: number): Busylight;
+        light(color?: string | string[] | false): Busylight;
+        blink(colors?: string | string[] | false, rate?: number): Busylight;
+        pulse(colors?: string | string[] | false, rate?: number): Busylight;
     }
 
     export interface options {
@@ -60,6 +59,5 @@ declare module 'busylight' {
         usage: number;
     }
 
-    export type color = string | string[] | false;
     export type tone = 'OpenOffice' | 'Quiet' | 'Funky' | 'FairyTale' | 'KuandoTrain' | 'TelephoneNordic' | 'TelephoneOriginal' | 'TelephonePickMeUp' | 'Buzz';
 }
