@@ -3,6 +3,7 @@
   "version": "0.3.2",
   "description": "node library for busylight",
   "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "author": {
     "name": "Rasmus Porsager",
     "email": "rasmus@porsager.com",
