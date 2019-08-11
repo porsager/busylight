@@ -112,6 +112,12 @@ Turn it off again
 Currently only the Kuando Busylight has been tested, but it seems the busylight unit is available under different names
 * Kuando Busylight
 
+### TypeScript
+Busylight supports TypeScript with own Type Definition files. Enjoy! :)
+
+### [Electron](https://github.com/electron/electron) and [Electron.NET](https://github.com/ElectronNET/Electron.NET)
+Busylight relies on node-hid. node-hid needs to be built for each different Electron Node.js integration a own build. Use for that [electron-rebuild](https://github.com/electron/electron-rebuild)
+
 ### <a name="node-webkit"></a>Node-webkit
 Busylight relies on node-hid. node-hid needs to be built for each platform and specific version of node-webkit, so to make it work you need to build node-hid using nw-gyp
 https://github.com/rogerwang/node-webkit/wiki/Build-native-modules-with-nw-gyp
