@@ -20,8 +20,8 @@
     "hid"
   ],
   "dependencies": {
-    "node-hid": "0.7.x",
-    "pwmcolorparser": "1.1.0"
+    "node-hid": "1.1.x",
+    "pwmcolorparser": "1.1.1"
   },
   "homepage": "http://github.com/porsager/busylight/",
   "bugs": {
