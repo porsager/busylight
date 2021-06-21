@@ -1,6 +1,6 @@
 {
   "name": "busylight",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "node library for busylight",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -20,7 +20,7 @@
     "hid"
   ],
   "dependencies": {
-    "node-hid": "1.1.x",
+    "node-hid": "2.1.x",
     "pwmcolorparser": "1.1.1"
   },
   "homepage": "http://github.com/porsager/busylight/",
